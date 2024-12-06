@@ -30,3 +30,8 @@
 *.exe
 *.out
 *.app
+/.vs/game-project
+/game-project/.vs/game-project/FileContentIndex
+/game-project/.vs/game-project/v17
+/game-project/x64/Debug/game-project.tlog
+/game-project
