@@ -3,6 +3,14 @@
  */
 
 // SDL 세팅하기, bmp이미지 경로 재설정 하기  
+/*
+* 1. 프로젝트 - 속성 - c/c++ - 추가포함 디렉터리 에서 SDL2-2.30.9\include 경로 추가
+* 
+* 2. 프로젝트 - 속성 - 링커 - 일반 - 추가 라이브러리 디렉터리 에서 SDL2-2.30.9\lib\x64 경로 추가
+* 
+* 3. 프로젝트 - 속성 - 링커 - 입력 - 추가 종속성 에서 SDL2.lib;SDL2main.lib 추가
+* 
+* */
 
 #include "Gfx.h" // general gfx lib I made for SDL
 #include "Input.h"
